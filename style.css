@@ -1,0 +1,63 @@
+body {
+    height: 600px;
+    background-image: url(https://www.pythonicway.com/static/blog/python_snake_initial.png);
+    background-size: cover;
+    background-position:0% ;
+    background-repeat: no-repeat;
+}
+
+div {
+    top: 30px;
+    width: 310px;
+    height: 120px;
+    /* border: 2px solid; */
+    background-image: url(https://media2.giphy.com/media/5fwoTYsw2D6yFI5X9x/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: 0px 0px 15px 5px rgb(255, 213, 0); */
+    position: relative;
+    animation: sun 10s infinite;
+    transition: 2s;
+}
+@keyframes sun {
+    5%{
+        left: 70px;
+    top: 20px;
+    }
+    10%{
+        left: 170px;
+        top: 60px;
+    }
+    25%{
+        left: 300px;
+        top: 90px;}
+
+    30%{
+        left: 400px;
+        top: 250px;
+    }
+    40%{
+        left: 500px;
+        top: 350px;
+    }
+  
+    50%{
+        left: 600px;
+        top: 450px;
+    }
+    60%{
+        left: 700px;
+        top: 500px;
+    }
+    70%{
+    left: 800px;
+
+    }
+    80%{
+        left: 900px;
+        
+    }
+    90%{
+        
+    }
+}
